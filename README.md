@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Portfolio preview" src="/og-image.png" width="100%" />
+  <img alt="Portfolio preview" src="/public/portfolio-view.png" width="100%" />
 </div>
 
 # Rafi Ferdos Portfolio
