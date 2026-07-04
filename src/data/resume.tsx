@@ -19,7 +19,7 @@ import { HomeIcon, NotebookIcon } from 'lucide-react'
 export const DATA = {
 	name: 'Rafi Ferdos',
 	initials: 'RF',
-	url: 'https://rafiferdos.vercel.app',
+	url: 'https://rafi-v4.vercel.app',
 	location: 'Dhaka, Bangladesh',
 	locationLink: 'https://www.google.com/maps/place/dhaka',
 	description:
