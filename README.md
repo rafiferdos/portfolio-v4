@@ -6,6 +6,8 @@
 
 A personal portfolio and blog built with Next.js, TypeScript, Tailwind CSS, shadcn/ui, Magic UI, and Content Collections.
 
+Live site: https://rafi-v4.vercel.app
+
 ## Overview
 
 This site showcases:
