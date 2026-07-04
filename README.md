@@ -1,48 +1,59 @@
 <div align="center">
-<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
+  <img alt="Portfolio preview" src="/og-image.png" width="100%" />
 </div>
 
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
+# Rafi Ferdos Portfolio
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+A personal portfolio and blog built with Next.js, TypeScript, Tailwind CSS, shadcn/ui, Magic UI, and Content Collections.
 
-# Features
+## Overview
 
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
-- Includes a blog
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+This site showcases:
 
-# Getting Started Locally
+- A hero section with profile summary and avatar
+- About, work experience, education, skills, projects, and contact sections
+- A blog powered by MDX content in the `content/` directory
+- Dark/light theme support
+- Responsive layouts and smooth entrance animations
 
-1. Clone this repository to your local machine:
+## Tech Stack
 
-   ```bash
-   git clone https://github.com/dillionverma/portfolio
-   ```
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS v4
+- shadcn/ui
+- Magic UI
+- Content Collections
+- MDX
+- react-markdown
+- next-themes
 
-2. Move to the cloned directory
+## Project Structure
 
-   ```bash
-   cd portfolio
-   ```
+- `src/app` - App Router pages and layouts
+- `src/components` - UI, section, and Magic UI components
+- `src/data/resume.tsx` - Portfolio content and personal data
+- `content/` - MDX blog posts
+- `public/` - Static assets such as images and fonts
 
-3. Install dependencies:
+## Features
 
-   ```bash
-   pnpm install
-   ```
+- Portfolio sections driven from a single data file
+- Blog with pagination
+- SEO metadata and Open Graph images
+- Responsive design for desktop and mobile
+- Theme toggle support
+- Reusable UI components and motion effects
 
-4. Start the local Server:
+## Getting Started
 
-   ```bash
-   pnpm dev
-   ```
+### Prerequisites
 
-5. Open the [Config file](./src/data/resume.tsx) and make changes
+- Node.js 18 or newer
+- pnpm
 
-# License
+### Install dependencies
 
-Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
-# portfolio-v4
+```bash
+pnpm install
