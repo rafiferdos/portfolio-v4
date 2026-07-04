@@ -14,7 +14,7 @@ import { Redux } from '@/components/ui/svgs/redux'
 import { SocketIo } from '@/components/ui/svgs/socketIo'
 import { TailwindCSS } from '@/components/ui/svgs/tailwindcss'
 import { Typescript } from '@/components/ui/svgs/typescript'
-import { HomeIcon, NotebookIcon } from 'lucide-react'
+import { Download, HomeIcon, NotebookIcon } from 'lucide-react'
 
 export const DATA = {
 	name: 'Rafi Ferdos',
@@ -46,7 +46,12 @@ export const DATA = {
 	],
 	navbar: [
 		{ href: '/', icon: HomeIcon, label: 'Home' },
-		{ href: '/blog', icon: NotebookIcon, label: 'Blog' }
+		{ href: '/blog', icon: NotebookIcon, label: 'Blog' },
+		{
+			href: 'https://drive.google.com/file/d/1wFjb1ZqswXkKHIQQwq2_qaqCiauGnX24/view?usp=drive_link',
+			icon: Download,
+			label: 'View Resume'
+		}
 	],
 	contact: {
 		email: 'rafiferdos@gmail.com',
