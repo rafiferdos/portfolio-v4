@@ -5,9 +5,14 @@ import { cn } from '@/lib/utils'
 
 type ReactNativeProps = ComponentPropsWithoutRef<typeof Image>
 
-const ReactNative = ({ className, alt = '', ...props }: ReactNativeProps) => (
+const ReactNative = ({
+	className,
+	alt = '',
+	src = '/react-native.png',
+	...props
+}: ReactNativeProps) => (
 	<Image
-		src='/react-native.png'
+		src={src}
 		alt={alt}
 		width={64}
 		height={64}
